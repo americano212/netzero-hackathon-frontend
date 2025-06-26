@@ -7,4 +7,10 @@ export default defineConfig({
   build: {
     outDir: "build",
   },
+  server: {
+    historyApiFallback: true,
+  },
+  preview: {
+    historyApiFallback: true,
+  },
 });
