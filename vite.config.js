@@ -5,6 +5,6 @@ import react from "@vitejs/plugin-react";
 export default defineConfig({
   plugins: [react()],
   build: {
-    outDir: "build", // 원하는 폴더명으로 변경 (예: 'build', 'public', 'release' 등)
+    outDir: "build",
   },
 });
